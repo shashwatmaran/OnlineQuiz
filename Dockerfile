@@ -1,4 +1,4 @@
-FROM openjdk:21
+FROM eclipse-temurin:21-jdk
 
 COPY target/online-quiz-system-1.0.jar app.jar
 
