@@ -13,8 +13,8 @@ spec:
         app: quiz
     spec:
       containers:
-      - name: quiz-container
-        image: shashmaran/java-app:latest
-        imagePullPolicy: Never
-        ports:
-        - containerPort: 8080
+        - name: quiz-container
+          image: princeekr/java-app:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080
